@@ -1,5 +1,6 @@
 import React from "react";
 import Video1 from "../../assets/video/video1.mp4";
+import "./Video.css";
 
 export const Video = () => {
   return (
