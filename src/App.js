@@ -1,14 +1,10 @@
 import "./App.css";
-import Video1 from "./assets/video/video1.mp4";
+import { Video } from "./screens/Video/Video";
 
 function App() {
   return (
     <div className="App">
-      <div className="video-container">
-        <video controls className="video">
-          <source src={Video1} type="video/mp4" />
-        </video>
-      </div>
+      <Video />
       <div className="timer-container">
         <div className="timer-button-container">
           <button className="timer-button">2</button>
