@@ -1,0 +1,57 @@
+.options-container {
+  position: absolute;
+  z-index: 100;
+  top: 80vh;
+  right: 40px;
+}
+
+.full-screen-container {
+  position: relative;
+  /* right: 70px; */
+  z-index: 10;
+}
+
+/* .reduce-screen-container {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  z-index: 10;
+  top:-40px;
+} */
+
+.full-screen-button, .reduce-screen-button {
+  border: 2px solid rgba(255,255,255,0.7);
+}
+
+.full-screen-button, .reduce-screen-button {
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  transition: 0.2s linear;
+  background-color: transparent;
+}
+
+.full-screen-button:hover, .reduce-screen-button:hover {
+  border: 3px solid rgba(255,255,255,1);
+  transform: scale(1.2);
+}
+
+.reduce-screen-button {
+  position: relative;
+  transition: 0.2s linear;
+}
+
+.reduce-screen-button:hover .small-square {
+  background-color: rgba(255,255,255,1);
+  transform: scale(1.2);
+}
+
+.small-square {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 10px;
+  background-color: rgba(255,255,255,0.7);
+}
