@@ -1,24 +1,12 @@
 import "./App.css";
+import { Timer } from "./components/Timer/Timer";
 import { Video } from "./screens/Video/Video";
 
 function App() {
   return (
     <div className="App">
       <Video />
-      <div className="timer-container">
-        <div className="timer-button-container">
-          <button className="timer-button">2</button>
-          <p>minutes</p>
-        </div>
-        <div className="timer-button-container">
-          <button className="timer-button">5</button>
-          <p>minutes</p>
-        </div>
-        <div className="timer-button-container">
-          <button className="timer-button">10</button>
-          <p>minutes</p>
-        </div>
-      </div>
+      <Timer />
       <div className="options-container">
         <div className="full-screen-container">
           <button

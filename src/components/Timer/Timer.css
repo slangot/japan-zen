@@ -1,0 +1,38 @@
+.timer-container {
+  z-index: 100;
+  position: absolute;
+  top: 20vh;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.timer-button-container {
+  width: 100px;
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+}
+
+.timer-button {
+  border: 1px solid white;
+  box-shadow: 0px 0px 3px 1px rgb(74, 74, 74);
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-bottom: -20px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  font-size: 1.3rem;
+}
+
+.timer-button:hover {
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+}
+
+.timer-active {
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+}
